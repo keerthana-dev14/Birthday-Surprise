@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Floating hearts animation */
+.birthday-float {
+  animation: floatUp 9s linear infinite;
+  opacity: 0;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0.8;
+  }
+
+  80% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateY(-110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Birthday cake animation */
+.birthday-cake {
+  animation: cakeBounce 2s ease-in-out infinite;
+}
+
+@keyframes cakeBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-12px) scale(1.05);
+  }
+}
+
+/* Glowing birthday heading */
+.birthday-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #ffffff;
+  }
+
+  to {
+    text-shadow: 0 0 20px #DDA5CE,
+                 0 0 35px #B99AE8;
+  }
+}
+
+/* Content reveal */
+.birthday-reveal {
+  animation: reveal 1.2s ease-out both;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
