@@ -1,7 +1,9 @@
 
 import { Gift, Heart, Sparkles, Flower2 } from "lucide-react";
-
-const Welcome = ({ onNext }) => {
+type WelcomeProps = {
+  onNext: () => void;
+};
+const Welcome = ({ onNext }: WelcomeProps) => {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-[#E6D9FF] via-[#FFF7FB] to-[#FFD6E7] flex items-center justify-center px-6 py-12 overflow-hidden">
 
