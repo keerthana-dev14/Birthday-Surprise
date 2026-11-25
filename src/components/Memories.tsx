@@ -1,5 +1,4 @@
 
-import React from "react";
 import { Heart, Camera, Sparkles } from "lucide-react";
 type MemoriesProps = {
   onNext: () => void;

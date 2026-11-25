@@ -1,5 +1,4 @@
 
-import React from "react";
 import { Gift, Heart, Sparkles, Flower2 } from "lucide-react";
 
 const Welcome = ({ onNext }) => {

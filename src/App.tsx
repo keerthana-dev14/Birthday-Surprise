@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import  { useState } from "react";
 
 import Welcome from "./components/Welcome";
 import Memories from "./components/Memories";

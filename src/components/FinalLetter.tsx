@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { Heart, Mail, Sparkles } from "lucide-react";
 
 const FinalLetter = () => {
